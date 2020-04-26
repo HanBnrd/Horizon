@@ -6,6 +6,7 @@
     <title>{{ site.title }} &bull; {{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/fonts/fontawesome/css/all.css' | relative_url }}">
   </head>
   <body>
     {% include navbar.html %}
@@ -18,8 +19,8 @@
         <h5>{{ site.description }}</h5>
       </div>
     </header>
-    
-    {{ content }}
+
+  {{ content }}
 
   <div class="row my-3 mx-1 row-cols-1 row-cols-md-2 row-cols-xl-4">
     <div class="col mb-4">
