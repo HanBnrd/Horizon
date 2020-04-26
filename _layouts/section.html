@@ -12,16 +12,13 @@
     {% include navbar.html %}
     <main>
 
-      <div class="col-12">
-        <div class="card my-3 shadow border-0 mb3">
-          <img class="card-img-top" src="{{ 'assets/img/' | append: page.image }}" alt="Card image cap">
-          <div class="card-body">
-            <h1 class="card-title text-center">{{ page.title }}</h1>
-            {{ content }}
-          </div>
+      <div class="card m-2 shadow border-0 mb3">
+        <img class="card-img-top" src="{{ 'assets/img/' | append: page.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h1 class="card-title text-center">{{ page.title }}</h1>
+          {{ content }}
         </div>
       </div>
-
 
     </main>
     {% include footer.html %}
