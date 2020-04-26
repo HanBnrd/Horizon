@@ -1,5 +1,6 @@
 header.masthead {
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
     color: #ececec;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -27,4 +28,5 @@ img.picture {
 
 body {
     overflow-y:scroll;
+    background-color: #ececec;
 }
