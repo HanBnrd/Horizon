@@ -26,6 +26,24 @@ img.picture {
     height: 23vh;
 }
 
+.card-img-big {
+    height: 45vh;
+    object-fit: cover;
+}
+
+.card-hover:hover {
+    filter: brightness(98%);
+    transform: translateY(-1px);
+}
+
+.social {
+    color: #ececec;
+}
+.social:hover {
+    color: #ececec;
+    transform: scale(1.1);
+}
+
 body {
     overflow-y:scroll;
     background-color: #ececec;
