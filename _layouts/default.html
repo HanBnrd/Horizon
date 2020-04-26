@@ -21,6 +21,46 @@
     
     {{ content }}
 
+  <div class="row my-3 mx-1 row-cols-1 row-cols-md-2 row-cols-xl-4">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{{ 'assets/img/' | append: page.education-img }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Education</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{{ 'assets/img/' | append: page.experience-img }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Experience</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{{ 'assets/img/' | append: page.projects-img }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Projects</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{{ 'assets/img/' | append: page.publications-img }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Publications</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     {% include footer.html %}
   </body>
 </html>

@@ -14,9 +14,3 @@ github: username-github
 gitlab: username-gitlab
 twitter: username-twitter
 linkedin: username-linkedin
-
-# Section settings
-education-img: education.jpg
-experience-img: experience.jpg
-projects-img: projects.jpg
-publications-img: publications.jpg
