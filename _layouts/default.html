@@ -13,49 +13,57 @@
     <header class="masthead" style="background-image: url({{ 'assets/img/' | append: site.background }});">
       <div class="container">
         <h1>{{ site.name }}</h1>
-        <h4>{{ site.about }}</h4>
+        <h5>{{ site.about }}</h5>
+        <br>
         <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" alt="">
         <br><br>
-        <h5>{{ site.description }}</h5>
+        <div class="container text-center">
+          <div class="fa-2x">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-gitlab"></i>
+            <i class="far fa-envelope"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
       </div>
     </header>
 
-  {{ content }}
+    <br>
+    <div class="container text-center">
+      <h5>{{ content }}</h5>
+    </div>
 
   <div class="row my-3 mx-1 row-cols-1 row-cols-md-2 row-cols-xl-4">
     <div class="col mb-4">
-      <div class="card">
+      <div class="card shadow">
         <img src="{{ 'assets/img/' | append: page.education-img }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Education</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3 class="card-title">Education</h3><a href="/education" class="stretched-link"></a>
         </div>
       </div>
     </div>
     <div class="col mb-4">
-      <div class="card">
+      <div class="card shadow">
         <img src="{{ 'assets/img/' | append: page.experience-img }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Experience</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3 class="card-title">Experience</h3><a href="/experience" class="stretched-link"></a>
         </div>
       </div>
     </div>
     <div class="col mb-4">
-      <div class="card">
+      <div class="card shadow">
         <img src="{{ 'assets/img/' | append: page.projects-img }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Projects</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3 class="card-title">Projects</h3><a href="/projects" class="stretched-link"></a>
         </div>
       </div>
     </div>
     <div class="col mb-4">
-      <div class="card">
+      <div class="card shadow">
         <img src="{{ 'assets/img/' | append: page.publications-img }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Publications</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3 class="card-title">Publications</h3><a href="/publications" class="stretched-link"></a>
         </div>
       </div>
     </div>
