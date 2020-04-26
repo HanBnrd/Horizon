@@ -9,14 +9,7 @@
   </head>
   <body>
     {% include navbar.html %}
-    <header class="masthead" style="background-image: url({{ 'assets/img/' | append: site.background }});">
-      <div class="container">
-        <h1>{{ site.name }}</h1>
-        <h4>{{ site.about }}</h4>
-        <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" alt="">
-        <br><br>
-        <h5>{{ site.description }}</h5>
-      </div>
+    <header class="section" style="background-image: url({{ 'assets/img/' | append: page.image }});">
     </header>
     
     {{ content }}

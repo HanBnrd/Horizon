@@ -1,0 +1,30 @@
+header.masthead {
+    text-align: center;
+    color: #ececec;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header.section {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+img.picture {
+    border-radius: 100%;
+    border: 3px solid #ececec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 23vh;
+    height: 23vh;
+}
+
+body {
+    overflow-y:scroll;
+}
