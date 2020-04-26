@@ -5,6 +5,19 @@ permalink: /publications
 image: publications.jpg
 ---
 
-# Publications
 
-Hello world!
+##### First publication
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+##### Second publication
+
+Curabitur tortor.
+
+---
+
+##### Third publication
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

@@ -4,10 +4,10 @@ baseurl: "" # the subpath of your site (e.g. /blog)
 title: "Horizon template" # the name of your site
 
 # User settings
-name: Jane Doe
+name: Lorem Ipsum
 picture: picture.jpg
 background: background.jpg
-about: Lorem ipsum
+about: Dolor sit amet
 email: email@example.com
 github: username-github
 gitlab: username-gitlab
