@@ -1,3 +1,12 @@
 <script src="{{ '/assets/js/jquery.slim.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+
+<div class="footer">
+  <div class="container text-muted text-center">
+    <div class="row">
+      <div class="col-12 col-md-6"><p>{{site.time | date: '%Y'}} &copy; <a href="{{ site.baseurl }}" target="_blank">{{ site.name }}</a></p></div>
+      <div class="col-12 col-md-6"><p>Based on the <a href="https://github.com/HanBnrd/Horizon" target="_blank">Horizon</a> template</p></div>
+    </div>
+  </div>
+</div>

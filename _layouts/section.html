@@ -10,11 +10,13 @@
   </head>
   <body>
     {% include navbar.html %}
-    <header class="section" style="background-image: url({{ 'assets/img/' | append: page.image }});">
-    </header>
-    
-    {{ content }}
+    <main>
 
+      <header class="section" style="background-image: url({{ 'assets/img/' | append: page.image }});"></header>
+      
+      {{ content }}
+
+    </main>
     {% include footer.html %}
   </body>
 </html>
