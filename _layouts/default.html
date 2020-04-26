@@ -21,11 +21,21 @@
           <br><br>
           <div class="container text-center">
             <div class="fa-lg">
+              {% if site.github %}
               <a class="social" href="{{ 'https://github.com/' | append: site.github }}" title="GitHub" target="_blank"><i class="fab fa-github px-2 social"></i></a>
+              {% endif %}
+              {% if site.gitlab %}
               <a class="social" href="{{ 'https://gitlab.com/' | append: site.gitlab }}" title="GitLab" target="_blank"><i class="fab fa-gitlab px-2 social"></i></a>
+              {% endif %}
+              {% if site.email %}
               <a class="social" href="{{ 'mailto:' | append: site.email }}" title="Email" target="_blank"><i class="far fa-envelope px-2 social"></i></a>
+              {% endif %}
+              {% if site.linkedin %}
               <a class="social" href="{{ 'https://www.linkedin.com/in/' | append: site.linkedin }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in px-2 social"></i></a>
+              {% endif %}
+              {% if site.twitter %}
               <a class="social" href="{{ 'https://twitter.com/' | append: site.twitter }}" title="Twitter" target="_blank"><i class="fab fa-twitter px-2 social"></i></a>
+              {% endif %}
             </div>
           </div>
         </div>
