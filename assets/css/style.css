@@ -29,6 +29,7 @@ img.picture {
 .card-img-big {
     height: 45vh;
     object-fit: cover;
+    filter: brightness(80%)
 }
 
 .card-hover:hover {
