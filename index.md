@@ -8,4 +8,4 @@ publications-img: publications.jpg
 ---
 
 
-Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+Integer nec odio. Sed cursus ante dapibus diam. Nulla quis sem at nibh elementum imperdiet.

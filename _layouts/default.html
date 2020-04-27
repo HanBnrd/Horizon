@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ site.title }} &bull; {{ page.title }}</title>
+    <link rel="shortcut icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/fonts/fontawesome/css/all.css' | relative_url }}">
@@ -51,7 +52,7 @@
           <div class="card card-hover shadow border-0">
             <img src="{{ 'assets/img/' | append: page.education-img }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Education</h4><a href="/education" class="stretched-link"></a>
+              <h4 class="card-title">Education</h4><a href="{{ '/education' | relative_url }}" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -59,7 +60,7 @@
           <div class="card card-hover shadow border-0">
             <img src="{{ 'assets/img/' | append: page.experience-img }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Experience</h4><a href="/experience" class="stretched-link"></a>
+              <h4 class="card-title">Experience</h4><a href="{{ '/experience' | relative_url }}" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@
           <div class="card card-hover shadow border-0">
             <img src="{{ 'assets/img/' | append: page.projects-img }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Projects</h4><a href="/projects" class="stretched-link"></a>
+              <h4 class="card-title">Projects</h4><a href="{{ '/projects' | relative_url }}" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -75,7 +76,7 @@
           <div class="card card-hover shadow border-0">
             <img src="{{ 'assets/img/' | append: page.publications-img }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">Publications</h4><a href="/publications" class="stretched-link"></a>
+              <h4 class="card-title">Publications</h4><a href="{{ '/publications' | relative_url }}" class="stretched-link"></a>
             </div>
           </div>
         </div>

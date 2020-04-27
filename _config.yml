@@ -1,13 +1,12 @@
 # Website settings
-url: "/" # the base hostname & protocol for your site (e.g. http://example.com)
-baseurl: "" # the subpath of your site (e.g. /blog)
+baseurl: "/Horizon" # the subpath of your site (e.g. /blog)
 title: "Horizon template" # the name of your site
 
 # User settings
-name: Lorem Ipsum
+name: Horizon Template
 picture: picture.jpg
 background: background.jpg
-about: Dolor sit amet
+about: Lorem Ipsum
 email: email@example.com
 github: username-github
 gitlab: username-gitlab
