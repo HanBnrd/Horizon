@@ -18,7 +18,9 @@
           <h1>{{ site.name }}</h1>
           <h5>{{ site.about }}</h5>
           <br>
-          <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" alt="">
+          <div class="profile-picture">
+            <img class="profile-picture" src="{{ 'assets/img/' | append: site.picture }}" alt="{{ site.name }}">
+          </div>
           <br><br>
           <div class="container text-center">
             <div class="fa-lg">
