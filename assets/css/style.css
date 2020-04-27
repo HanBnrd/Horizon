@@ -22,14 +22,14 @@ img.picture {
     border-radius: 100%;
     border: 3px solid #ececec;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 23vh;
-    height: 23vh;
+    width: 180px;
+    height: 180px;
 }
 
 .card-img-big {
-    height: 45vh;
+    height: 250px;
     object-fit: cover;
-    filter: brightness(80%)
+    filter: brightness(85%);
 }
 
 .card-hover:hover {
