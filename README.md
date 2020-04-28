@@ -8,6 +8,11 @@ Jekyll template for a responsive personal website
 ![Horizon template](screenshot.png)
 
 
+### Demo
+
+https://hanbnrd.github.io/Horizon/
+
+
 ### Run locally
 
 ```
