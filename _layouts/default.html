@@ -16,7 +16,7 @@
       <header class="background-section">
         <div class="background-container">
           {% if site.background-video %}
-            <video autoplay loop muted src="{{ 'assets/videos/' | append: site.background-video }}" poster="{{ 'assets/img/' | append: site.background-video-thumbnail }}"></video>
+            <video autoplay loop muted src="{{ 'assets/videos/' | append: site.background-video }}" poster="{{ 'assets/videos/' | append: site.background-video-thumbnail }}"></video>
           {% else %}
             <img src="{{ 'assets/img/' | append: site.background-image }}">
           {% endif %}
