@@ -16,7 +16,7 @@
       <header class="background-section">
         <div class="background-container">
           {% if site.background-video %}
-            <video autoplay loop muted src="{{ 'assets/videos/' | append: site.background-video }}" poster="{{ 'assets/img/' | append: site.background-image }}"></video>
+            <video autoplay loop muted src="{{ 'assets/videos/' | append: site.background-video }}" poster="{{ 'assets/img/' | append: site.background-video-thumbnail }}"></video>
           {% else %}
             <img src="{{ 'assets/img/' | append: site.background-image }}">
           {% endif %}
@@ -25,7 +25,7 @@
           <h1>{{ site.name }}</h1>
           <h5>{{ site.about }}</h5>
           <br>
-          <img title="{{ site.name }}" class="picture" src="{{ 'assets/img/' | append: site.picture }}" alt="{{ site.name }}">
+          <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" title="{{ site.name }}">
           <div class="container text-center">
             <br>
             <div class="fa-lg">
@@ -57,7 +57,7 @@
       <div class="row text-center m-1">
         <div class="col-12 col-sm-6 col-lg-3 p-1">
           <div class="card card-hover shadow border-0">
-            <img src="{{ 'assets/img/thumbnails/' | append: page.education-img }}" class="card-img-top" alt="...">
+            <img src="{{ 'assets/img/thumbnails/' | append: page.education-img }}" class="card-img-top" alt="Education">
             <div class="card-body">
               <h4 class="card-title">Education</h4><a href="{{ '/education' | relative_url }}" class="stretched-link"></a>
             </div>
@@ -65,7 +65,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-1">
           <div class="card card-hover shadow border-0">
-            <img src="{{ 'assets/img/thumbnails/' | append: page.experience-img }}" class="card-img-top" alt="...">
+            <img src="{{ 'assets/img/thumbnails/' | append: page.experience-img }}" class="card-img-top" alt="Experience">
             <div class="card-body">
               <h4 class="card-title">Experience</h4><a href="{{ '/experience' | relative_url }}" class="stretched-link"></a>
             </div>
@@ -73,7 +73,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-1">
           <div class="card card-hover shadow border-0">
-            <img src="{{ 'assets/img/thumbnails/' | append: page.projects-img }}" class="card-img-top" alt="...">
+            <img src="{{ 'assets/img/thumbnails/' | append: page.projects-img }}" class="card-img-top" alt="Projects">
             <div class="card-body">
               <h4 class="card-title">Projects</h4><a href="{{ '/projects' | relative_url }}" class="stretched-link"></a>
             </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="col-12 col-sm-6 col-lg-3 p-1">
           <div class="card card-hover shadow border-0">
-            <img src="{{ 'assets/img/thumbnails/' | append: page.publications-img }}" class="card-img-top" alt="...">
+            <img src="{{ 'assets/img/thumbnails/' | append: page.publications-img }}" class="card-img-top" alt="Publications">
             <div class="card-body">
               <h4 class="card-title">Publications</h4><a href="{{ '/publications' | relative_url }}" class="stretched-link"></a>
             </div>

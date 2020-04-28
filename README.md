@@ -1,5 +1,14 @@
 # Horizon
-Jekyll template for a minimal personal website
+
+Jekyll template for a responsive personal website
+
+
+### Preview
+
+![Horizon template](screenshot.png)
+
+
+### Run locally
 
 ```
 bundle install
@@ -12,7 +21,3 @@ or
 ```
 bundle exec jekyll serve
 ```
-
-### Preview
-
-![Horizon template](preview.png)
