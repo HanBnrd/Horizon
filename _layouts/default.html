@@ -13,16 +13,21 @@
     {% include navbar.html %}
     <main>
 
-      <header class="masthead" style="background-image: url({{ 'assets/img/' | append: site.background }});">
-        <div class="container">
+      <header class="background-section">
+        <div class="background-container">
+          {% if site.background-video %}
+            <video autoplay loop muted src="{{ 'assets/videos/' | append: site.background-video }}" poster="{{ 'assets/img/' | append: site.background-image }}"></video>
+          {% else %}
+            <img src="{{ 'assets/img/' | append: site.background-image }}">
+          {% endif %}
+        </div>
+        <div class="background-overlay text-center">
           <h1>{{ site.name }}</h1>
           <h5>{{ site.about }}</h5>
           <br>
-          <div class="profile-picture">
-            <img class="profile-picture" src="{{ 'assets/img/' | append: site.picture }}" alt="{{ site.name }}">
-          </div>
-          <br><br>
+          <img title="{{ site.name }}" class="picture" src="{{ 'assets/img/' | append: site.picture }}" alt="{{ site.name }}">
           <div class="container text-center">
+            <br>
             <div class="fa-lg">
               {% if site.github %}
               <a class="social" href="{{ 'https://github.com/' | append: site.github }}" title="GitHub" target="_blank"><i class="fab fa-github px-2 social"></i></a>
@@ -46,7 +51,7 @@
 
       <br>
       <div class="container text-center">
-        <h5>{{ content }}</h5>
+        <h6>{{ content }}</h6>
       </div>
 
       <div class="row text-center m-1">

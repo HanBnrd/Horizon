@@ -2,6 +2,10 @@
 Jekyll template for a minimal personal website
 
 ```
+bundle install
+```
+
+```
 jekyll serve --livereload
 ```
 or

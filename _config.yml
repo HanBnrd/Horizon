@@ -6,7 +6,8 @@ title: "Horizon template" # the name of your site
 # User settings
 name: Horizon Template
 picture: picture.jpg
-background: background.jpg
+background-video: background.mp4
+background-image: background.jpg
 about: Lorem Ipsum
 email: email@example.com
 github: username-github
