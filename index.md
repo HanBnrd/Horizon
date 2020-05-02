@@ -8,4 +8,4 @@ publications-img: publications.jpg
 ---
 
 
-Integer nec odio. Sed cursus ante dapibus diam. Nulla quis sem at nibh elementum imperdiet.
+Horizon is a Jekyll template that enables you to add content in simple text files which are then converted into a stylish and responsive personal website.

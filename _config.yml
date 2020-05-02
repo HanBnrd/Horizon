@@ -10,9 +10,9 @@ qr-code: qrcode.png
 background-video: background.mp4
 background-video-thumbnail: background-thumbnail.jpg
 background-image: background.jpg
-about: Lorem Ipsum
-email: email@example.com
-github: username-github
-gitlab: username-gitlab
-linkedin: username-linkedin
-twitter: username-twitter
+about: Responsive personal website
+email: ""
+github: ""
+gitlab: ""
+linkedin: ""
+twitter: ""
