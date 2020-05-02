@@ -6,6 +6,7 @@ title: "Horizon template" # the name of your site
 # User settings
 name: Horizon Template
 picture: picture.jpg
+qr-code: qrcode.png
 background-video: background.mp4
 background-video-thumbnail: background-thumbnail.jpg
 background-image: background.jpg

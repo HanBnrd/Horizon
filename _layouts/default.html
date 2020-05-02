@@ -25,7 +25,11 @@
           <h1>{{ site.name }}</h1>
           <h5>{{ site.about }}</h5>
           <br>
-          <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" title="{{ site.name }}">
+          {% if site.qr-code %}
+            <a href="#" title="QR Code"><img class="picture" src="{{ 'assets/img/' | append: site.picture }}" data-toggle="modal" data-target="#qr-modal"></a>
+          {% else %}
+            <img class="picture" src="{{ 'assets/img/' | append: site.picture }}" title="{{ site.name }}">
+          {% endif %}
           <div class="container text-center">
             <br>
             <div class="fa-lg">
@@ -48,6 +52,23 @@
           </div>
         </div>
       </header>
+
+      <!-- Modal -->
+      <div class="modal fade" id="qr-modal" tabindex="-1" role="dialog" aria-labelledby="qr-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="qr-modal-label">QR Code</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img class="qr" src="{{ 'assets/img/' | append: site.qr-code }}" title="{{ site.title }}">
+            </div>
+          </div>
+        </div>
+      </div>
 
       <br>
       <div class="container text-center">

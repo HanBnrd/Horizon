@@ -50,6 +50,9 @@
     color: #ececec;
     transform: scale(1.1);
 }
+.qr {
+    max-width: 100%;
+}
 
 .card-hover:hover {
     filter: brightness(95%);
