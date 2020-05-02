@@ -1,7 +1,7 @@
 # Website settings
 url: "https://hanbnrd.github.io" # the base hostname & protocol for your site (e.g. http://example.com)
 baseurl: "/Horizon" # the subpath of your site (e.g. /blog)
-title: "Horizon template" # the name of your site
+title: "Horizon" # the name of your site
 
 # User settings
 name: Horizon Template
