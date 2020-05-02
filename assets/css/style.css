@@ -67,6 +67,7 @@
 
 body {
     overflow-y:scroll;
+    color: #353535;
     background-color: #ececec;
     display: flex;
     min-height: 100vh;
