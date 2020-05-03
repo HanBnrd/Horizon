@@ -1,18 +1,20 @@
 # Website settings
-url: "https://hanbnrd.github.io" # the base hostname & protocol for your site (e.g. http://example.com)
-baseurl: "/Horizon" # the subpath of your site (e.g. /blog)
+url: "https://github.io" # the base hostname & protocol for your site (e.g. http://example.com)
+baseurl: "" # the subpath of your site (e.g. /blog)
 title: "Horizon" # the name of your site
 
 # User settings
 name: Horizon Template
-picture: picture.jpg
-qr-code: qrcode.png
-background-video: background.mp4
-background-video-thumbnail: background-thumbnail.jpg
-background-image: background.jpg
 about: Responsive personal website
 email: ""
 github: ""
 gitlab: ""
 linkedin: ""
 twitter: ""
+
+# Assets settings
+picture: picture.jpg
+qr-code: qrcode.png
+background-video: background.mp4
+background-video-thumbnail: background-thumbnail.jpg
+background-image: background.jpg
